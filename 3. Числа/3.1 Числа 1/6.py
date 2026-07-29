@@ -1,0 +1,4 @@
+radius_of_my_wheel = 30
+average_speed_of_my_car = 140
+this_number_is_very_big_but_i_love_it = 1234567890987654321
+print(radius_of_my_wheel, average_speed_of_my_car, this_number_is_very_big_but_i_love_it)
