@@ -1,6 +1,10 @@
-num = int(input())
+s = input()
 
-def check_num(n):
-    print("Число чётное" if n % 2 == 0 else "Число нечётное")
+def is_float(x):
+    if x.isdigit():
+        return float(x)
+    elif x.count(".") == 1:
+        if x.replace(".", "").isdigit():
+            return float(x)
 
-check_num(num)
+print(is_float(s))
